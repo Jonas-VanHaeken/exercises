@@ -16,4 +16,4 @@ def generate_students():
 
 with open('input.json', 'w') as out:
     students = generate_students()
-    json.dump(students, out)
+    json.dump(students, out, indent=4)
